@@ -30,8 +30,8 @@ srv_gen/
 *.csv
 *.swp
 *.swo
-*.png
-*.jpg
+#*.png
+#*.jpg
 *.npz
 *.json
 event*
