@@ -9,6 +9,8 @@
 * Ubuntu 14.04
 * Python 2.7.6
 * Pytorch 0.3.1
+* GPU: GTX 980M
+* CUDA version: 8.0.44
 * [imutils](https://github.com/jrosebr1/imutils)
 
 
