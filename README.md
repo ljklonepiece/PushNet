@@ -25,6 +25,7 @@
 * install pytorch 0.3.1
 
 ```pip install http://download.pytorch.org/whl/cu80/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl ```
+
 ```pip install torchvision ```
 
 * download opencv2.4 source from [link](https://opencv.org/releases.html)
@@ -42,9 +43,7 @@
 
 Note: if you encounter the following compilation error while building opencv
 
-``` Error: /modules/contrib/src/rgbdodometry.cpp:65:47: fatal error: 
-           unsupported/Eigen/MatrixFunctions: No such file or directory
-```
+``` Error: /modules/contrib/src/rgbdodometry.cpp:65:47: fatal error: unsupported/Eigen/MatrixFunctions: No such file or directory ```
 
 You have to find the path of unsupported/Eigen/MatrixFunctions. In my case it was inside /usr/include/eigen3/.
 
